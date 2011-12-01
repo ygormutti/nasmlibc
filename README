@@ -1,0 +1,9 @@
+Os arquivos Fuso* e o Makefile são de um trabalho prático que fiz para a disciplina de Programação de Software Básico em 2011.1. O resto faz parte da mini libc que tive de implementar para fazer este trabalho, que é o que interessa.
+
+Usei macros no lugar dos nomes comuns dos registradores para tentar fazer um código portável para a arquitetura amd64, objetivo que foi rapidamente abandonado quando o prazo de entrega do trabalho se aproximou e quase nada estava pronto. :)
+
+Estou divulgando este código na esperança de que ele possa ser útil. Se você for utilizar ele ou partes dele em seu trabalho de assembly, por favor não remova a mensagem de copyright.
+
+O código não está bem documentado, eu sei, mas as funções com o mesmo nome de uma função da biblioteca de C funcionam da mesma maneira, então você pode usar a documentação da glibc. Quanto às outras você pode ter uma ideia pelo nome da função, pela descrição dos argumentos, e pelo uso da função na própria biblioteca e no código de Fuso*.asm. 
+
+Faça bom proveito!
